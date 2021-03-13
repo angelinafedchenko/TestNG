@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Suite">
+    <test name = "TestParam1">
+        <parameter name = "type" value = "clients"></parameter>
+        <classes>
+            <class name = "com.softserve.ita.TestWithParameters" />
+        </classes>
+    </test>
+
+    <test name = "TestParam2">
+        <parameter name = "type" value = "managers"></parameter>
+        <classes>
+            <class name = "com.softserve.ita.TestWithParameters" />
+        </classes>
+    </test>
+</suite>
